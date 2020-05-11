@@ -1,6 +1,6 @@
 {
-  "name": "vueparse",
-  "version": "1.0.0",
+  "name": "template2css",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "t2css": "index.js"
+  },
+  "author": "461199585@qq.com",
   "license": "ISC",
   "dependencies": {
     "htmlparser2": "^4.1.0"
