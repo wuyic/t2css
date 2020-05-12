@@ -2,13 +2,10 @@
 由vue Template模版骨架直接生成Scss/Less骨架
 
 ##安装使用
-npm i -D t2css
-
-
-npx t2css sourceFilePath targetSourceFile
-sourceFilePath:  *.vue 的源文件
-targetSourceFile:  目标文件
-
+```
+ npm i -D t2css
+ npx t2css sourceFilePath targetSourceFile
+```
 
 ``` Vue
 ./a.vue文件
