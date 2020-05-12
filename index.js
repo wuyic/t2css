@@ -15,6 +15,7 @@
   
   if (!suorceFile) {
     console.error("待解析的文件不存在")
+    return
   }
   
   //如果没有目标文件，在当前目录生成scss文件
