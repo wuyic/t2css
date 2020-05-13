@@ -1,1 +1,24 @@
-.instruction{&.i1{}.img{}}.instruction1{&.i2{}.p{}img{}}.is3{.is33{.is333{img{}}}}
+.testArea {
+  .instruction {
+    &.i1 {
+    }
+    .img {
+    }
+  }
+  .instruction1 {
+    &.i2 {
+    }
+    .p {
+    }
+    img {
+    }
+  }
+  .is3 {
+    .is33 {
+      .is333 {
+        img {
+        }
+      }
+    }
+  }
+}

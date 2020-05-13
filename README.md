@@ -10,21 +10,23 @@
 ``` Vue
 ./a.vue文件
 <template>
-  <div class="instruction i1" :class="{selected: false}">
-   <img class="img" src="@/images/common/pic_instructions@3x.png" alt="">
-  </div>
-  <div class="instruction1 i2">
-    <p class="p">ssds</p>
-    <img src="" alt="">
-  </div>
-  <div>
-    <div class="is3">
-      <div class="is33">
-        <div>
-          <div class="is333">
-            <p>
-              <img src="" alt="">
-            </p>
+  <div class="testArea">
+    <div class="instruction i1">
+      <img class="img" src="@/images/common/pic_instructions@3x.png" alt="">
+    </div>
+    <div class="instruction1 i2">
+      <p class="p">ssds</p>
+      <img src="" alt="">
+    </div>
+    <div>
+      <div class="is3">
+        <div class="is33">
+          <div>
+            <div class="is333">
+              <p>
+                <img src="" alt="">
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -39,28 +41,28 @@
 ```
  自动生成Scss骨架到a.scss文件， 内容如下
  ```
- .instruction {
-  &.i1 {
+.testArea {
+  .instruction {
+    &.i1 {
+    }
+    .img {
+    }
   }
-  .img {
+  .instruction1 {
+    &.i2 {
+    }
+    .p {
+    }
+    img {
+    }
   }
-}
-
-.instruction1 {
-  &.i2 {
-  }
-  .p {
-  }
-  img {
-  }
-}
-
-.is3 {
-  .is33 {
-    .is333 {
-      img {
+  .is3 {
+    .is33 {
+      .is333 {
+        img {
+        }
       }
     }
   }
-}
+}}
  ```
