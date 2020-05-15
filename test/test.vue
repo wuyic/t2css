@@ -1,6 +1,6 @@
 <template>
   <div class="testArea">
-    <div class="instruction i1" :class="{selected: Number(isM) ? true : false, isNew: false}">
+    <div class="instruction i1">
       <img class="img" src="@/images/common/pic_instructions@3x.png" alt="">
     </div>
     <div class="instruction1 i2">
@@ -13,6 +13,12 @@
           <div>
             <div class="is333">
               <p>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
                 <img src="" alt="">
               </p>
             </div>
