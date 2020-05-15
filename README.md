@@ -23,15 +23,13 @@
         <div class="is33">
           <div>
             <div class="is333">
-              <p>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-              </p>
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
             </div>
           </div>
         </div>
@@ -40,7 +38,6 @@
   </div>
 </template>
 ```
-
 执行命令：
 ``` css
   npx t2css ./a.vue ./a.scss
